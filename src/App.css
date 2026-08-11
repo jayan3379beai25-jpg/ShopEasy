@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial;
+}
+
+/* Navbar */
+
+nav {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 8%;
+  border-bottom: 1px solid #ddd;
+}
+
+nav h2 {
+  color: #2563eb;
+}
+
+nav a {
+  text-decoration: none;
+  color: #555;
+  margin: 15px;
+  font-size: 14px;
+}
+
+button {
+  background: #7040f5;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Hero */
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 80px 10%;
+}
+
+.hero h1 {
+  font-size: 45px;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  color: #777;
+  margin-bottom: 20px;
+}
+
+.box {
+  font-size: 100px;
+}
+
+/* Products */
+
+.products {
+  padding: 20px 10%;
+}
+
+.products h2 {
+  margin-bottom: 20px;
+}
+
+.cards {
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+  width: 220px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+.card h4 {
+  color: #999;
+  font-size: 12px;
+}
+
+.card h3 {
+  margin: 8px 0;
+}
+
+.card p {
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+.cart {
+  margin-top: 20px;
+  color: #7040f5;
+}
